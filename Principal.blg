@@ -1,12 +1,15 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: document.aux
-A level-1 auxiliary file: preambulo/Capa.aux
-A level-1 auxiliary file: preambulo/FolhaAprovacao.aux
-A level-1 auxiliary file: preambulo/Agradecimentos.aux
-A level-1 auxiliary file: preambulo/Epigrafe.aux
-A level-1 auxiliary file: preambulo/Resumo.aux
-A level-1 auxiliary file: preambulo/Abstract.aux
+The top-level auxiliary file: Principal.aux
+A level-1 auxiliary file: pre-texto/Capa.aux
+A level-1 auxiliary file: pre-texto/FolhaAprovacao.aux
+A level-1 auxiliary file: pre-texto/Dedicatoria.aux
+A level-1 auxiliary file: pre-texto/Agradecimentos.aux
+A level-1 auxiliary file: pre-texto/Epigrafe.aux
+A level-1 auxiliary file: pre-texto/Resumo.aux
+A level-1 auxiliary file: pre-texto/Abstract.aux
+A level-1 auxiliary file: pre-texto/ListaAbreviacoes.aux
+A level-1 auxiliary file: pre-texto/ListaSimbolos.aux
 A level-1 auxiliary file: capitulos/Introducao.aux
 A level-1 auxiliary file: capitulos/Trabalho.aux
 A level-1 auxiliary file: capitulos/MetodologiasResultados.aux
@@ -36,7 +39,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 4 entries,
             6522 wiz_defined-function locations,
-            1184 strings with 9678 characters,
+            1187 strings with 9762 characters,
 and the built_in function-call counts, 2121 in all, are:
 = -- 256
 > -- 16
