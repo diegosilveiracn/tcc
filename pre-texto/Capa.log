@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.24)  1 MAR 2016 15:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.24)  11 MAR 2016 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -66,7 +66,30 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 N
+l.2 C
+     ampus\par
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 N
      ome do Curso}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -83,12 +106,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--3
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
 []
  []
 
 ! Undefined control sequence.
-l.4 \titulo
+l.5 \titulo
            {Título do Trabalho}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -103,7 +126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \titulo{T
+l.5 \titulo{T
              ítulo do Trabalho}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -126,12 +149,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
 []
  []
 
 ! Undefined control sequence.
-l.6 \autor
+l.7 \autor
           {Nome do Autor}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -146,7 +169,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 \autor{N
+l.7 \autor{N
             ome do Autor}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -163,7 +186,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.7 \orientador
+l.8 \orientador
                {Nome do Orientador}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -188,7 +211,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.8 \coorientador
+l.9 \coorientador
                  [Coorientador:\par]{Nome do Coorientador}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -211,7 +234,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 6--8
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--9
 []
  []
 
@@ -222,7 +245,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \coorientador[Coorientador:\par]
+l.9 \coorientador[Coorientador:\par]
                                     {Nome do Coorientador}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -247,12 +270,12 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
 []
  []
 
 ! Undefined control sequence.
-l.10 \comentario
+l.11 \comentario
                 {Monografia apresentada como parte dos requisitos
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -267,7 +290,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \comentario{M
+l.11 \comentario{M
                   onografia apresentada como parte dos requisitos
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -389,12 +412,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--13
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--14
 []
  []
 
 ! Undefined control sequence.
-l.14 \local
+l.15 \local
            {Cidade -- Siglas do Estado}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -409,7 +432,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \local{C
+l.15 \local{C
              idade -- Siglas do Estado}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -437,7 +460,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.15 \data
+l.16 \data
           {Mês, Ano}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -454,12 +477,12 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 14--16
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--17
 []
  []
 
 ! Undefined control sequence.
-l.17 \capa
+l.18 \capa
           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -468,7 +491,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.18 \folhaderosto
+l.19 \folhaderosto
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
