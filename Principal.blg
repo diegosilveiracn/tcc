@@ -11,8 +11,7 @@ A level-1 auxiliary file: pre-texto/Abstract.aux
 A level-1 auxiliary file: pre-texto/ListaAbreviacoes.aux
 A level-1 auxiliary file: pre-texto/ListaSimbolos.aux
 A level-1 auxiliary file: capitulos/Introducao.aux
-A level-1 auxiliary file: capitulos/Trabalho.aux
-A level-1 auxiliary file: capitulos/MetodologiasResultados.aux
+A level-1 auxiliary file: capitulos/Desenvolvimento.aux
 A level-1 auxiliary file: capitulos/ConsideracoesFinais.aux
 The style file: abnt-alf.bst
 A level-1 auxiliary file: apendices/Anexo.aux
@@ -39,7 +38,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 4 entries,
             6522 wiz_defined-function locations,
-            1187 strings with 9762 characters,
+            1186 strings with 9733 characters,
 and the built_in function-call counts, 2121 in all, are:
 = -- 256
 > -- 16
