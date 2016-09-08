@@ -1,23 +1,17 @@
 Modelo LaTex para Trabalho de Conclusão de Curso (TCC) no IFRN
 ==============================================================
 
-Pacotes necessários
--------------------
+Pacotes
+-------
 
-- abntex
+- LaTex
+- AbnTex
+- Texmaker
+- JabRef
 
-Como usar
----------
-
-- Edite os arquivos
-- Gere o PDF executando
-
-```
-make
-```
-
-- Apague arquivos gerados automaticamente com 
+Instalação
+----------
 
 ```
-make clean
+$ sudo apt-get install texlive-full abntex texmaker jabref
 ```
