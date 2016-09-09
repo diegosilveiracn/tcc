@@ -27,7 +27,7 @@ $ sudo apt-get install texlive-full abntex texmaker jabref
 Compilação via Terminal
 -------------------
 
-Caso não tenha interesse em utilizar um editor próprio para LaTex, o mesmo pode ser utilizado em um editor de texto qualquer, e o arquito LaTex pode ser compildado conforme comando a seguir:
+Caso não tenha interesse em utilizar um editor próprio para LaTex, o mesmo pode ser escrito em um editor de texto qualquer, e compilado via terminal, conforme comando a seguir:
 
 ```
 $ pdflatex Principal.tex
