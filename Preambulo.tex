@@ -1,0 +1,67 @@
+\documentclass[pnumromarab,normaltoc,floatnumber=continuous]{abnt}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,url}
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage[alf,abnt-etal-list=0,abnt-etal-text=it]{abntcite}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{lscape}
+\usepackage{subfigure}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{multirow}
+
+\makeatletter
+
+\renewcommand{\capa}
+{
+\if@twocolumn
+  \@restonecoltrue\onecolumn
+\else
+  \@restonecolfalse\newpage
+\fi
+\thispagestyle{empty}
+\setcounter{page}\z@
+\begin{center}
+	\includegraphics[scale=0.25]{imagens/if}\\
+	\MakeUppercase{\ABNTinstituicaodata}
+\end{center}
+\vspace*{3cm}
+\espaco{1.1}
+\ABNTifnotempty{\ABNTtitulodata}
+  {
+   \begin{center}
+     {\tituloformat\ABNTtitulodata\par}
+   \end{center}
+  }
+\vfill
+\ABNTifnotempty{\ABNTautordata}
+  {
+  \begin{center}
+    \autorformat\ABNTautordata
+  \end{center}
+  }
+\vspace*{1cm}
+\vfill\vfill\vfill
+\begin{center}
+  \begin{espacosimples}
+    \setlength{\parskip}{.3cm}
+    \ABNTifnotempty{\ABNTlocaldata}
+      {{\localformat\ABNTlocaldata}\par}
+    \ABNTifnotempty{\ABNTdatadata}
+      {{\dataformat\ABNTdatadata}}
+  \end{espacosimples}
+\end{center}
+\vspace*{1cm}
+\if@restonecol\twocolumn \else \newpage \fi
+\espaco{\ABNTespacodefault}
+}
+
+\hyphenation{a-pren-di-za-do in-ves-ti-ga-ção}
+
+\makeatother
