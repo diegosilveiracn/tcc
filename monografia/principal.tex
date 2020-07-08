@@ -32,7 +32,8 @@
     % -- opções da classe memoir --
     12pt,               % tamanho da fonte
     openright,          % capítulos começam em pág ímpar (insere página vazia caso preciso)
-    twoside,            % para impressão em verso e anverso. Oposto a oneside
+   % twoside,            % para impressão em verso e anverso. Oposto a oneside
+    oneside,            % para impressão em verso e anverso. Oposto a oneside
     a4paper,            % tamanho do papel. 
     % -- opções da classe abntex2 --
     %chapter=TITLE,     % títulos de capítulos convertidos em letras maiúsculas
@@ -110,10 +111,8 @@
 \tipotrabalho{Monografia}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
-\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com
-as normas ABNT apresentado à comunidade de usuários \LaTeX.}
+\preambulo{Trabalho de Conclusão de Curso apresentado à banca examinadora como requisito parcial a obten\c cão do título de XXXXXXX pelo Instituto Federal de Educa\c cão, Ciência e Tecnologia do Rio Grande do Norte.}
 % ---
-
 
 % ---
 % Configurações de aparência do PDF final
@@ -196,39 +195,6 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 % \begin{fichacatalografica}
 %     \includepdf{fig_ficha_catalografica.pdf}
 % \end{fichacatalografica}
-\begin{fichacatalografica}
-    \vspace*{\fill}                 % Posição vertical
-    \hrule                          % Linha horizontal
-    \begin{center}                  % Minipage Centralizado
-    \begin{minipage}[c]{12.5cm}     % Largura
-    
-    \imprimirautor
-    
-    \hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
-    \imprimirlocal, \imprimirdata-
-    
-    \hspace{0.5cm} \pageref{LastPage} p. : il. (algumas color.) ; 30 cm.\\
-    
-    \hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
-    
-    \hspace{0.5cm}
-    \parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
-    \imprimirdata.}\\
-    
-    \hspace{0.5cm}
-        1. Palavra-chave1.
-        2. Palavra-chave2.
-        I. Orientador.
-        II. Universidade xxx.
-        III. Faculdade de xxx.
-        IV. Título\\            
-    
-    \hspace{8.75cm} CDU 02:141:005.7\\
-    
-    \end{minipage}
-    \end{center}
-    \hrule
-\end{fichacatalografica}
 % ---
 
 % ---
@@ -251,8 +217,7 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
    \vspace*{\fill}
    \centering
    \noindent
-   \textit{Este trabalho é dedicado às crianças adultas que,\\
-   quando pequenas, sonharam em se tornar cientistas.} \vspace*{\fill}   
+   \textit{Texto de dedicatória.} \vspace*{\fill}   
 \end{dedicatoria}
 % ---
 
@@ -260,22 +225,8 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 % Agradecimentos
 % ---
 \begin{agradecimentos}
-Os agradecimentos principais são direcionados à Gerald Weber, Miguel Frasson,
-Leslie H. Watter, Bruno Parente Lima, Flávio de Vasconcellos Corrêa, Otavio Real
-Salvador, Renato Machnievscz\footnote{Os nomes dos integrantes do primeiro
-projeto abn\TeX\ foram extraídos de
-\url{http://codigolivre.org.br/projects/abntex/}} e todos aqueles que
-contribuíram para que a produção de trabalhos acadêmicos conforme
-as normas ABNT com \LaTeX\ fosse possível.
 
-Agradecimentos especiais são direcionados ao Centro de Pesquisa em Arquitetura
-da Informação\footnote{\url{http://www.cpai.unb.br/}} da Universidade de
-Brasília (CPAI), ao grupo de usuários
-\emph{latex-br}\footnote{\url{http://groups.google.com/group/latex-br}} e aos
-novos voluntários do grupo
-\emph{\abnTeX}\footnote{\url{http://groups.google.com/group/abntex2} e
-\url{http://abntex2.googlecode.com/}}~que contribuíram e que ainda
-contribuirão para a evolução do \abnTeX.
+Texto do agradecimentos.
 
 \end{agradecimentos}
 % ---
@@ -286,11 +237,8 @@ contribuirão para a evolução do \abnTeX.
 \begin{epigrafe}
     \vspace*{\fill}
     \begin{flushright}
-        \textit{``Não vos amoldeis às estruturas deste mundo, \\
-        mas transformai-vos pela renovação da mente, \\
-        a fim de distinguir qual é a vontade de Deus: \\
-        o que é bom, o que Lhe é agradável, o que é perfeito.\\
-        (Bíblia Sagrada, Romanos 12, 2)}
+        \textit{ ``Texto da epígrafe.'' \\
+        (Autor)}
     \end{flushright}
 \end{epigrafe}
 % ---
@@ -302,45 +250,22 @@ contribuirão para a evolução do \abnTeX.
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
- Segundo a \citeonline[3.1-3.2]{NBR6028:2003}, o resumo deve ressaltar o
- objetivo, o método, os resultados e as conclusões do documento. A ordem e a extensão
- destes itens dependem do tipo de resumo (informativo ou indicativo) e do
- tratamento que cada item recebe no documento original. O resumo deve ser
- precedido da referência do documento, com exceção do resumo inserido no
- próprio documento. (\ldots) As palavras-chave devem figurar logo abaixo do
- resumo, antecedidas da expressão Palavras-chave:, separadas entre si por
- ponto e finalizadas também por ponto.
 
+ Texto do resumo.
+ 
  \textbf{Palavras-chaves}: latex. abntex. editoração de texto.
 \end{resumo}
 
 % resumo em inglês
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
-   This is the english abstract.
+  
+  Abstract text.
 
    \vspace{\onelineskip}
  
    \noindent 
    \textbf{Key-words}: latex. abntex. text editoration.
- \end{otherlanguage*}
-\end{resumo}
-
-% resumo em francês 
-\begin{resumo}[Résumé]
- \begin{otherlanguage*}{french}
-    Il s'agit d'un résumé en français.
- 
-   \textbf{Mots-clés}: latex. abntex. publication de textes.
- \end{otherlanguage*}
-\end{resumo}
-
-% resumo em espanhol
-\begin{resumo}[Resumen]
- \begin{otherlanguage*}{spanish}
-   Este es el resumen en español.
-  
-   \textbf{Palabras clave}: latex. abntex. publicación de textos.
  \end{otherlanguage*}
 \end{resumo}
 % ---
@@ -402,47 +327,11 @@ contribuirão para a evolução do \abnTeX.
 \chapter[Introdução]{Introdução}
 % ----------------------------------------------------------
 
-Este documento e seu código-fonte são exemplos de referência de uso da classe
-\textsf{abntex2} e do pacote \textsf{abntex2cite}. O documento 
-exemplifica a elaboração de trabalho acadêmico (tese, dissertação e outros do
-gênero) produzido conforme a ABNT NBR 14724:2011 \emph{Informação e documentação
-- Trabalhos acadêmicos - Apresentação}.
-
-A expressão ``Modelo Canônico'' é utilizada para indicar que \abnTeX\ não é
-modelo específico de nenhuma universidade ou instituição, mas que implementa tão
-somente os requisitos das normas da ABNT. Uma lista completa das normas
-observadas pelo \abnTeX\ é apresentada em \citeonline{abntex2classe}.
-
-Sinta-se convidado a participar do projeto \abnTeX! Acesse o site do projeto em
-\url{http://abntex2.googlecode.com/}. Também fique livre para conhecer,
-estudar, alterar e redistribuir o trabalho do \abnTeX, desde que os arquivos
-modificados tenham seus nomes alterados e que os créditos sejam dados aos
-autores originais, nos termos da ``The \LaTeX\ Project Public
-License''\footnote{\url{http://www.latex-project.org/lppl.txt}}.
-
-Encorajamos que sejam realizadas customizações específicas deste exemplo para
-universidades e outras instituições --- como capas, folha de aprovação, etc.
-Porém, recomendamos que ao invés de se alterar diretamente os arquivos do
-\abnTeX, distribua-se arquivos com as respectivas customizações.
-Isso permite que futuras versões do \abnTeX~não se tornem automaticamente
-incompatíveis com as customizações promovidas. Consulte
-\citeonline{abntex2-wiki-como-customizar} par mais informações.
-
-Este documento deve ser utilizado como complemento dos manuais do \abnTeX\ 
-\cite{abntex2classe,abntex2cite,abntex2cite-alf} e da classe \textsf{memoir}
-\cite{memoir}. 
-
-Esperamos, sinceramente, que o \abnTeX\ aprimore a qualidade do trabalho que
-você produzirá, de modo que o principal esforço seja concentrado no principal:
-na contribuição científica.
-
-Equipe \abnTeX 
-
-Lauro César Araujo
+\section{Problemática}
 
 \section{Objetivos}
 
-\section{Justificativas}
+\subsection{Objetivos específicos}
 
 \section{Organização do documento}
 
@@ -473,9 +362,6 @@ Lauro César Araujo
 \chapter{Resultados}
 % ---
 
-\lipsum[1]
-
-\lipsum[2-3]
 
 % ----------------------------------------------------------
 % Finaliza a parte no bookmark do PDF
@@ -490,8 +376,6 @@ Lauro César Araujo
 \chapter[Conclusão]{Conclusão}
 % ---
 
-\lipsum[31-33]
-
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
 % ----------------------------------------------------------
@@ -501,7 +385,7 @@ Lauro César Araujo
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-modelo-references}
+\bibliography{referencias}
 
 % ----------------------------------------------------------
 % Glossário
@@ -524,16 +408,16 @@ Lauro César Araujo
 \partapendices
 
 % ----------------------------------------------------------
-\chapter{Quisque libero justo}
+\chapter{Título}
 % ----------------------------------------------------------
 
-\lipsum[50]
+Texto do apêndice.
 
 % ----------------------------------------------------------
-\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-ac pretium ante justo a nulla curabitur tristique arcu eu metus}
+\chapter{Título}
 % ----------------------------------------------------------
-\lipsum[55-57]
+
+Texto do apêndice.
 
 \end{apendicesenv}
 % ---
@@ -552,22 +436,16 @@ ac pretium ante justo a nulla curabitur tristique arcu eu metus}
 \partanexos
 
 % ---
-\chapter{Morbi ultrices rutrum lorem.}
-% ---
-\lipsum[30]
-
-% ---
-\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
-parturient montes nascetur ridiculus mus}
+\chapter{Título}
 % ---
 
-\lipsum[31]
+Texto do anexo.
 
 % ---
-\chapter{Fusce facilisis lacinia dui}
+\chapter{Títuldo}
 % ---
 
-\lipsum[32]
+Texto do anexo.
 
 \end{anexosenv}
 
