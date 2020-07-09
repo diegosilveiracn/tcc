@@ -100,15 +100,15 @@
 \autor{Nome do autor}
 \local{Cidade -- UF}
 \data{Mês, ano}
-\orientador{Lauro César Araujo}
-\coorientador{Equipe \abnTeX}
+\orientador{Nome do orientador}
+\coorientador{Nome do coorientador}
 \instituicao{%
   Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte
   \par
   Curso XXXXXXXX
   \par
-  Campus Natal -- Zona Norte}
-\tipotrabalho{Monografia}
+  Campus XXXXXXXX}
+\tipotrabalho{monografia}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
 \preambulo{Trabalho de Conclusão de Curso apresentado à banca examinadora como requisito parcial a obten\c cão do título de XXXXXXX pelo Instituto Federal de Educa\c cão, Ciência e Tecnologia do Rio Grande do Norte.}
@@ -132,7 +132,7 @@
         colorlinks=true,            % false: boxed links; true: colored links
         linkcolor=blue,             % color of internal links
         citecolor=blue,             % color of links to bibliography
-        filecolor=magenta,              % color of file links
+        filecolor=magenta,       % color of file links
         urlcolor=blue,
         bookmarksdepth=4
 }
@@ -226,7 +226,7 @@
 % ---
 \begin{agradecimentos}
 
-Texto do agradecimentos.
+Texto de agradecimentos.
 
 \end{agradecimentos}
 % ---
@@ -237,7 +237,7 @@ Texto do agradecimentos.
 \begin{epigrafe}
     \vspace*{\fill}
     \begin{flushright}
-        \textit{ ``Texto da epígrafe.'' \\
+        \textit{ ``Texto de epígrafe.'' \\
         (Autor)}
     \end{flushright}
 \end{epigrafe}
@@ -253,7 +253,7 @@ Texto do agradecimentos.
 
  Texto do resumo.
  
- \textbf{Palavras-chaves}: latex. abntex. editoração de texto.
+ \textbf{Palavras-chaves}: palavra 1. palavra 2. palavra 3.
 \end{resumo}
 
 % resumo em inglês
@@ -265,7 +265,7 @@ Texto do agradecimentos.
    \vspace{\onelineskip}
  
    \noindent 
-   \textbf{Key-words}: latex. abntex. text editoration.
+   \textbf{Key-words}: word 1. word 2. word 3.
  \end{otherlanguage*}
 \end{resumo}
 % ---
@@ -290,20 +290,19 @@ Texto do agradecimentos.
 % inserir lista de abreviaturas e siglas
 % ---
 \begin{siglas}
-  \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX
+  \item[IFRN] Instituto Federal de Educa\c cão, Ciência e Tecnologia do Rio Grande do Norte
 \end{siglas}
 % ---
 
 % ---
 % inserir lista de símbolos
 % ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
+%\begin{simbolos}
+ % \item[$ \Gamma $] Letra grega Gama
+ % \item[$ \Lambda $] Lambda
+ % \item[$ \zeta $] Letra grega minúscula zeta
+ % \item[$ \in $] Pertence
+% \end{simbolos}
 % ---
 
 % ---
@@ -326,6 +325,55 @@ Texto do agradecimentos.
 % ----------------------------------------------------------
 \chapter[Introdução]{Introdução}
 % ----------------------------------------------------------
+
+\textbf{Exemplo de texto em negrito.}
+
+\textit{Exemplo de texto em itálico.}
+
+\underline{Exemplo de texto sublinhado.}
+
+Exemplo de nota de rodapé\footnote{Descri\c cão da nota de rodapé.}.
+
+Importando a Figura~\ref{fig:imagem}.
+
+\begin{figure}[htb]
+   \centering
+   \label{fig:imagem}
+   \caption{Título da imagem}
+   \includegraphics[scale=0.5]{imagens/if}
+   \legend{Fonte: XXXXX}
+\end{figure}
+
+Construindo a Tabela~\ref{tab:tabela}.
+
+\begin{table}[htb]
+\center
+\footnotesize
+\label{tab:tabela}
+\caption{Título da tabela}
+\begin{tabular} {|c|c|c|c|} % para definir o tamanho usar p{1.4cm}, por exemplo.
+  \hline
+   \textbf{A} & \textbf{B}  & \textbf{C}  & \textbf{D}  \\
+    \hline \hline
+    	A1 & B1 & C1& D1\\
+   \hline
+       	A2 & B2 & C2 & D2\\
+   \hline
+    	A3 & B3 & C3 & D3\\
+   \hline
+\end{tabular}
+   \legend{Fonte: XXXXX}
+\end{table}
+
+Exemplos de cita\c cão: 
+
+\cite[p. 10]{author2020}; ou 
+
+\citeonline[p. 14]{author2020}.
+
+\begin{citacao}
+No caso da cita\c cão possuir mais de três linhas, podemos lan\c car mão de um bloco de texto \cite[p. 44]{author2020}.
+\end{citacao}
 
 \section{Problemática}
 
